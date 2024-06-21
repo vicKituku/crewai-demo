@@ -32,7 +32,7 @@ class MeetingPrepAgents:
 
     def meeting_strategy_agent(self):
         return Agent(
-            rols="meeting Strategy Advisor",
+            role="meeting Strategy Advisor",
             goal="Develop talking points, questions, and strategic angles for the meeting",
             backstory=dedent(
                 """As a Strategy Advisor, your expertise will guide the development of
